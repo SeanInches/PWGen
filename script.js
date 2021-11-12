@@ -1,5 +1,13 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
+var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var upperRandom = upperCase[Math.floor(Math.random()* upperCase.length)];
+var lowerCase = "abcdefghijklmnopqrstuvwxyz";
+var lowerRandom = lowerCase[Math.floor(math.random()* lowerCase.length)];
+var numbers = "0123456789";
+var numberRandom = numbers[math.floor(math.random()*numbers.length)];
+var symbols = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
+var symbolsRandom = symbols[math.floor(math.random()*symbols.length)];
 
 // Write password to the #password input
 function writePassword() {
